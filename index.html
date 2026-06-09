@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Captain TJ Media</title>
+  <link rel="icon" type="image/png" href="captain-tj-logo.png" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0a0a0a;
+      color: #e8e8e8;
+      min-height: 100vh;
+    }
+    header {
+      background: #111;
+      border-bottom: 1px solid #222;
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    header img { width: 48px; height: 48px; border-radius: 8px; }
+    header h1 { font-size: 1.5rem; font-weight: 700; color: #fff; letter-spacing: -0.5px; }
+    main { max-width: 720px; margin: 60px auto; padding: 0 24px; }
+    .hero { text-align: center; margin-bottom: 60px; }
+    .hero img { width: 96px; height: 96px; border-radius: 16px; margin-bottom: 24px; }
+    .hero h2 { font-size: 2rem; font-weight: 700; color: #fff; margin-bottom: 16px; }
+    .hero p { font-size: 1.1rem; color: #aaa; line-height: 1.7; max-width: 560px; margin: 0 auto; }
+    .section { background: #111; border: 1px solid #222; border-radius: 12px; padding: 32px; margin-bottom: 24px; }
+    .section h3 { font-size: 1.1rem; font-weight: 600; color: #fff; margin-bottom: 12px; }
+    .section p { color: #aaa; line-height: 1.7; font-size: 0.95rem; }
+    .links { display: flex; gap: 16px; margin-top: 32px; flex-wrap: wrap; }
+    .links a { color: #6eb4f7; text-decoration: none; font-size: 0.95rem; padding: 8px 16px; border: 1px solid #2a4a6b; border-radius: 8px; }
+    .links a:hover { border-color: #6eb4f7; }
+    footer { text-align: center; padding: 40px 24px; color: #555; font-size: 0.85rem; border-top: 1px solid #1a1a1a; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="captain-tj-logo.png" alt="Captain TJ Media logo" />
+    <h1>Captain TJ Media</h1>
+  </header>
+  <main>
+    <div class="hero">
+      <img src="captain-tj-logo.png" alt="Captain TJ Media" />
+      <h2>Captain TJ Media</h2>
+      <p>Automated social media publishing for the Captain TJ YouTube channel — a Great Lakes maritime content creator documenting life aboard massive commercial vessels.</p>
+    </div>
+    <div class="section">
+      <h3>About This Application</h3>
+      <p>Captain TJ Media is a personal automation tool that posts video content to connected social media accounts (YouTube, TikTok, Instagram, Facebook) on behalf of the channel owner. It does not collect user data, does not serve third parties, and is not available to the general public.</p>
+    </div>
+    <div class="section">
+      <h3>TikTok Integration</h3>
+      <p>This application uses the TikTok Content Posting API to upload short-form videos to TikTok as drafts. Videos are submitted using the video.upload scope and appear in the creator's inbox for review before publishing. No user data beyond the OAuth access token is accessed or stored.</p>
+    </div>
+    <div class="links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="tos.html">Terms of Service</a>
+      <a href="https://www.youtube.com/@lcaptaintjl" target="_blank">YouTube Channel</a>
+    </div>
+  </main>
+  <footer>
+    &copy; 2026 Captain TJ Media &mdash; <a href="mailto:lcaptaintjl@gmail.com" style="color:#555">lcaptaintjl@gmail.com</a>
+  </footer>
+</body>
+</html>
